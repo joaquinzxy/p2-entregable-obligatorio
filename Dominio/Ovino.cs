@@ -1,0 +1,49 @@
+﻿using System;
+using System.Collections.Generic;
+using System.Linq;
+using System.Text;
+using System.Threading.Tasks;
+
+
+namespace Dominio;
+
+public class Ovino : Ganado
+{
+    private static float precioKgPie;
+    private static float precioKgLana;
+    private float pesoLana;
+
+    public Ovino(string codCaravan, DateTime fechaNacimiento, float costoAdquisicion, float costoAlimentacion, TipoSexo sexo, float peso, bool esHibrido, string raza, float pesoLana) : base(codCaravan, fechaNacimiento, costoAdquisicion, costoAlimentacion, sexo, peso, esHibrido, raza)
+    {
+        this.pesoLana = pesoLana;
+    }
+
+    public static float PrecioKgPie
+    {
+        get => precioKgPie;
+        set => precioKgPie = value;
+    }
+
+    public static float PrecioKgLana
+    {
+        get => precioKgLana;
+        set => precioKgLana = value;
+    }
+
+    public float PesoLana
+    {
+        get => pesoLana;
+        set => pesoLana = value;
+    }
+
+    public override void Validar()
+    {
+        base.Validar();
+        if (pesoLana < 0) throw new Exception("El peso de la lana no puede ser negativo");
+    }
+    public override string ToString()
+    {
+        return $"El precio establecido es {precioKgLana}";
+
+    }
+}

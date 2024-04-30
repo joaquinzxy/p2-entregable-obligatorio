@@ -1,0 +1,244 @@
+{
+  "Version": 1,
+  "WorkspaceRootPath": "C:\\Users\\Yasy\\source\\repos\\obligatorioUltimoIntento\\",
+  "Documents": [
+    {
+      "AbsoluteMoniker": "D:0:0:{7CA77130-3DD6-423F-81DC-62E5228DFBDA}|Consola\\Consola.csproj|c:\\users\\yasy\\source\\repos\\obligatorioultimointento\\consola\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{7CA77130-3DD6-423F-81DC-62E5228DFBDA}|Consola\\Consola.csproj|solutionrelative:consola\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{8F4ED2C8-1FB2-4950-A446-B9E35D3EC6E5}|Dominio\\Dominio.csproj|c:\\users\\yasy\\source\\repos\\obligatorioultimointento\\dominio\\interfaces\\ivalidar.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{8F4ED2C8-1FB2-4950-A446-B9E35D3EC6E5}|Dominio\\Dominio.csproj|solutionrelative:dominio\\interfaces\\ivalidar.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{8F4ED2C8-1FB2-4950-A446-B9E35D3EC6E5}|Dominio\\Dominio.csproj|c:\\users\\yasy\\source\\repos\\obligatorioultimointento\\dominio\\potrero.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{8F4ED2C8-1FB2-4950-A446-B9E35D3EC6E5}|Dominio\\Dominio.csproj|solutionrelative:dominio\\potrero.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{8F4ED2C8-1FB2-4950-A446-B9E35D3EC6E5}|Dominio\\Dominio.csproj|c:\\users\\yasy\\source\\repos\\obligatorioultimointento\\dominio\\sistema.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{8F4ED2C8-1FB2-4950-A446-B9E35D3EC6E5}|Dominio\\Dominio.csproj|solutionrelative:dominio\\sistema.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{8F4ED2C8-1FB2-4950-A446-B9E35D3EC6E5}|Dominio\\Dominio.csproj|c:\\users\\yasy\\source\\repos\\obligatorioultimointento\\dominio\\vacuna.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{8F4ED2C8-1FB2-4950-A446-B9E35D3EC6E5}|Dominio\\Dominio.csproj|solutionrelative:dominio\\vacuna.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{8F4ED2C8-1FB2-4950-A446-B9E35D3EC6E5}|Dominio\\Dominio.csproj|c:\\users\\yasy\\source\\repos\\obligatorioultimointento\\dominio\\bovino.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{8F4ED2C8-1FB2-4950-A446-B9E35D3EC6E5}|Dominio\\Dominio.csproj|solutionrelative:dominio\\bovino.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{8F4ED2C8-1FB2-4950-A446-B9E35D3EC6E5}|Dominio\\Dominio.csproj|c:\\users\\yasy\\source\\repos\\obligatorioultimointento\\dominio\\empleado.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{8F4ED2C8-1FB2-4950-A446-B9E35D3EC6E5}|Dominio\\Dominio.csproj|solutionrelative:dominio\\empleado.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{8F4ED2C8-1FB2-4950-A446-B9E35D3EC6E5}|Dominio\\Dominio.csproj|c:\\users\\yasy\\source\\repos\\obligatorioultimointento\\dominio\\ganado.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{8F4ED2C8-1FB2-4950-A446-B9E35D3EC6E5}|Dominio\\Dominio.csproj|solutionrelative:dominio\\ganado.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{8F4ED2C8-1FB2-4950-A446-B9E35D3EC6E5}|Dominio\\Dominio.csproj|c:\\users\\yasy\\source\\repos\\obligatorioultimointento\\dominio\\peon.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{8F4ED2C8-1FB2-4950-A446-B9E35D3EC6E5}|Dominio\\Dominio.csproj|solutionrelative:dominio\\peon.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{8F4ED2C8-1FB2-4950-A446-B9E35D3EC6E5}|Dominio\\Dominio.csproj|c:\\users\\yasy\\source\\repos\\obligatorioultimointento\\dominio\\enum\\tiposexo.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{8F4ED2C8-1FB2-4950-A446-B9E35D3EC6E5}|Dominio\\Dominio.csproj|solutionrelative:dominio\\enum\\tiposexo.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{8F4ED2C8-1FB2-4950-A446-B9E35D3EC6E5}|Dominio\\Dominio.csproj|c:\\users\\yasy\\source\\repos\\obligatorioultimointento\\dominio\\interfaces\\icomparable.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{8F4ED2C8-1FB2-4950-A446-B9E35D3EC6E5}|Dominio\\Dominio.csproj|solutionrelative:dominio\\interfaces\\icomparable.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{8F4ED2C8-1FB2-4950-A446-B9E35D3EC6E5}|Dominio\\Dominio.csproj|c:\\users\\yasy\\source\\repos\\obligatorioultimointento\\dominio\\dominio.csproj||{FA3CD31E-987B-443A-9B81-186104E8DAC1}|",
+      "RelativeMoniker": "D:0:0:{8F4ED2C8-1FB2-4950-A446-B9E35D3EC6E5}|Dominio\\Dominio.csproj|solutionrelative:dominio\\dominio.csproj||{FA3CD31E-987B-443A-9B81-186104E8DAC1}|"
+    }
+  ],
+  "DocumentGroupContainers": [
+    {
+      "Orientation": 0,
+      "VerticalTabListWidth": 256,
+      "DocumentGroups": [
+        {
+          "DockedWidth": 200,
+          "SelectedChildIndex": 8,
+          "Children": [
+            {
+              "$type": "Bookmark",
+              "Name": "ST:0:0:{1c4feeaa-4718-4aa9-859d-94ce25d182ba}"
+            },
+            {
+              "$type": "Bookmark",
+              "Name": "ST:0:0:{3ae79031-e1bc-11d0-8f78-00a0c9110057}"
+            },
+            {
+              "$type": "Bookmark",
+              "Name": "ST:0:0:{1c64b9c2-e352-428e-a56d-0ace190b99a6}"
+            },
+            {
+              "$type": "Bookmark",
+              "Name": "ST:129:0:{1fc202d4-d401-403c-9834-5b218574bb67}"
+            },
+            {
+              "$type": "Bookmark",
+              "Name": "ST:128:0:{116d2292-e37d-41cd-a077-ebacac4c8cc4}"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 4,
+              "Title": "Vacuna.cs",
+              "DocumentMoniker": "C:\\Users\\Yasy\\source\\repos\\obligatorioUltimoIntento\\Dominio\\Vacuna.cs",
+              "RelativeDocumentMoniker": "Dominio\\Vacuna.cs",
+              "ToolTip": "C:\\Users\\Yasy\\source\\repos\\obligatorioUltimoIntento\\Dominio\\Vacuna.cs",
+              "RelativeToolTip": "Dominio\\Vacuna.cs",
+              "ViewState": "AQIAAAEAAAAAAAAAAAAgwAsAAAAgAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-04-30T01:08:07.682Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 6,
+              "Title": "Empleado.cs",
+              "DocumentMoniker": "C:\\Users\\Yasy\\source\\repos\\obligatorioUltimoIntento\\Dominio\\Empleado.cs",
+              "RelativeDocumentMoniker": "Dominio\\Empleado.cs",
+              "ToolTip": "C:\\Users\\Yasy\\source\\repos\\obligatorioUltimoIntento\\Dominio\\Empleado.cs",
+              "RelativeToolTip": "Dominio\\Empleado.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAqwAoAAABJAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-04-30T00:09:43.012Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 3,
+              "Title": "Sistema.cs",
+              "DocumentMoniker": "C:\\Users\\Yasy\\source\\repos\\obligatorioUltimoIntento\\Dominio\\Sistema.cs",
+              "RelativeDocumentMoniker": "Dominio\\Sistema.cs",
+              "ToolTip": "C:\\Users\\Yasy\\source\\repos\\obligatorioUltimoIntento\\Dominio\\Sistema.cs",
+              "RelativeToolTip": "Dominio\\Sistema.cs",
+              "ViewState": "AQIAAFcAAAAAAAAAAAAAAGYAAAA4AAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-04-29T23:14:33.785Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 0,
+              "Title": "Program.cs",
+              "DocumentMoniker": "C:\\Users\\Yasy\\source\\repos\\obligatorioUltimoIntento\\Consola\\Program.cs",
+              "RelativeDocumentMoniker": "Consola\\Program.cs",
+              "ToolTip": "C:\\Users\\Yasy\\source\\repos\\obligatorioUltimoIntento\\Consola\\Program.cs",
+              "RelativeToolTip": "Consola\\Program.cs",
+              "ViewState": "AQIAAAYAAAAAAAAAAAAAAJ4AAAAJAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-04-29T22:44:56.374Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 2,
+              "Title": "Potrero.cs",
+              "DocumentMoniker": "C:\\Users\\Yasy\\source\\repos\\obligatorioUltimoIntento\\Dominio\\Potrero.cs",
+              "RelativeDocumentMoniker": "Dominio\\Potrero.cs",
+              "ToolTip": "C:\\Users\\Yasy\\source\\repos\\obligatorioUltimoIntento\\Dominio\\Potrero.cs",
+              "RelativeToolTip": "Dominio\\Potrero.cs",
+              "ViewState": "AQIAAEAAAAAAAAAAAAAAAEEAAAAVAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-04-29T23:02:11.525Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 9,
+              "Title": "TipoSexo.cs",
+              "DocumentMoniker": "C:\\Users\\Yasy\\source\\repos\\obligatorioUltimoIntento\\Dominio\\Enum\\TipoSexo.cs",
+              "RelativeDocumentMoniker": "Dominio\\Enum\\TipoSexo.cs",
+              "ToolTip": "C:\\Users\\Yasy\\source\\repos\\obligatorioUltimoIntento\\Dominio\\Enum\\TipoSexo.cs",
+              "RelativeToolTip": "Dominio\\Enum\\TipoSexo.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAYAAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-04-29T23:08:10.776Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 10,
+              "Title": "IComparable.cs",
+              "DocumentMoniker": "C:\\Users\\Yasy\\source\\repos\\obligatorioUltimoIntento\\Dominio\\Interfaces\\IComparable.cs",
+              "RelativeDocumentMoniker": "Dominio\\Interfaces\\IComparable.cs",
+              "ToolTip": "C:\\Users\\Yasy\\source\\repos\\obligatorioUltimoIntento\\Dominio\\Interfaces\\IComparable.cs",
+              "RelativeToolTip": "Dominio\\Interfaces\\IComparable.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAsAAAABAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-04-29T23:09:19.276Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 1,
+              "Title": "IValidar.cs",
+              "DocumentMoniker": "C:\\Users\\Yasy\\source\\repos\\obligatorioUltimoIntento\\Dominio\\Interfaces\\IValidar.cs",
+              "RelativeDocumentMoniker": "Dominio\\Interfaces\\IValidar.cs",
+              "ToolTip": "C:\\Users\\Yasy\\source\\repos\\obligatorioUltimoIntento\\Dominio\\Interfaces\\IValidar.cs",
+              "RelativeToolTip": "Dominio\\Interfaces\\IValidar.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAkAAAABAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-04-29T23:09:02.646Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 5,
+              "Title": "Bovino.cs",
+              "DocumentMoniker": "C:\\Users\\Yasy\\source\\repos\\obligatorioUltimoIntento\\Dominio\\Bovino.cs",
+              "RelativeDocumentMoniker": "Dominio\\Bovino.cs",
+              "ToolTip": "C:\\Users\\Yasy\\source\\repos\\obligatorioUltimoIntento\\Dominio\\Bovino.cs",
+              "RelativeToolTip": "Dominio\\Bovino.cs",
+              "ViewState": "AQIAABcAAAAAAAAAAAAAACIAAAAIAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-04-30T01:28:04.057Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 7,
+              "Title": "Ganado.cs",
+              "DocumentMoniker": "C:\\Users\\Yasy\\source\\repos\\obligatorioUltimoIntento\\Dominio\\Ganado.cs",
+              "RelativeDocumentMoniker": "Dominio\\Ganado.cs",
+              "ToolTip": "C:\\Users\\Yasy\\source\\repos\\obligatorioUltimoIntento\\Dominio\\Ganado.cs",
+              "RelativeToolTip": "Dominio\\Ganado.cs",
+              "ViewState": "AQIAAAUAAAAAAAAAAAAAAAUAAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-04-29T23:02:58.875Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 8,
+              "Title": "Peon.cs",
+              "DocumentMoniker": "C:\\Users\\Yasy\\source\\repos\\obligatorioUltimoIntento\\Dominio\\Peon.cs",
+              "RelativeDocumentMoniker": "Dominio\\Peon.cs",
+              "ToolTip": "C:\\Users\\Yasy\\source\\repos\\obligatorioUltimoIntento\\Dominio\\Peon.cs",
+              "RelativeToolTip": "Dominio\\Peon.cs",
+              "ViewState": "AQIAAAsAAAAAAAAAAAAAAAAAAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-04-30T00:11:35.612Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 11,
+              "Title": "Dominio",
+              "DocumentMoniker": "C:\\Users\\Yasy\\source\\repos\\obligatorioUltimoIntento\\Dominio\\Dominio.csproj",
+              "RelativeDocumentMoniker": "Dominio\\Dominio.csproj",
+              "ToolTip": "C:\\Users\\Yasy\\source\\repos\\obligatorioUltimoIntento\\Dominio\\Dominio.csproj",
+              "RelativeToolTip": "Dominio\\Dominio.csproj",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAgAAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000758|",
+              "WhenOpened": "2024-04-29T23:06:51.927Z",
+              "EditorCaption": ""
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}
