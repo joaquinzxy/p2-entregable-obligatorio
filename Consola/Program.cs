@@ -12,7 +12,7 @@ namespace Consola
         {
             sistema.InicializarPrecarga(); 
             int opcion = 0;
-            string[] opciones = { "Listar Animales", "Mostrar Potreros", "Precio por kilo de lana", "Alta de ganado Bovino" };
+            string[] opciones = { "Listar Animales", "Mostrar Potreros", "Precio por kilo de lana", "Alta de ganado Bovino", "Mostrar precios de venta" };
             do
             {
                 Menu(opciones);
@@ -33,6 +33,9 @@ namespace Consola
                     case 4:
                         AltaDeGanadoBovino();
                         break;
+                    case 5:
+                        MostrarPreciosVenta();
+                        break;
                 }
 
             } while (opcion != 0);
@@ -46,21 +49,20 @@ namespace Consola
             Console.WriteLine("Ingrese una de las siguientes opciones (0 para terminar)");
             foreach (string opcion in opciones)
             {
-                Console.WriteLine($"{numero} - {opcion} ");
+                Console.WriteLine($"[{numero}] - {opcion} ");
                 numero++;
             }
         }
         public static void ListarAnimales()
         {
-            Console.WriteLine("Listado de animales:");
+            Console.WriteLine("\nListado de animales:\n");
             List<Ganado> lista = sistema.ListarGanado();
             if (lista.Count > 0)
             {
                 foreach (Ganado unGanado in lista)
                 {
-                    Console.WriteLine("=========================");
                     Console.WriteLine(unGanado.ToString());
-                    Console.WriteLine("=========================");
+                    Console.WriteLine("-------------------------------");
                 }
             }
             else
@@ -75,41 +77,53 @@ namespace Consola
 
         public static void ObtenerPotreroSegunHectareas()
         {
-            Console.WriteLine("Ingrese cantidad de hectáreas y capacidad");
+            Console.Write("\n[ 📐 Filtrar potreros por hectareas y capacidad ]\n");
+            Console.Write("> Ingrese el mínimo de hectareas: ");
             float cantidadhectareas = Convert.ToSingle(Console.ReadLine());
+            Console.Write("> Ingrese el mínimo de capacidad: ");
             int capacidad = Convert.ToInt32(Console.ReadLine());
             List<Potrero> lista = sistema.ObtenerPotreroSegunHectareas(cantidadhectareas, capacidad);
+            Console.WriteLine($"Potreros encontrados: {lista.Count}");
             foreach (Potrero unPotrero in lista)
             {
                 Console.WriteLine(unPotrero.ToString());
+                Console.WriteLine("-------------------------------");
             }
-            Console.WriteLine("Enter para continuar");
+            Console.WriteLine("\nEnter para continuar");
             Console.ReadLine();
         }
 
 
         public static void PrecioKiloLana()
         {
-            Console.WriteLine("Ingrese el precio de la lana");
-            float precio = Convert.ToSingle(Console.ReadLine());
-            sistema.DefinirPrecioKgLana(precio);
-            Console.WriteLine("Enter para continuar");
-            Console.ReadLine();
+            try
+            {
+                Console.WriteLine("\n[ ✏️ Definir precio de venta KG lana ]");
+                Console.Write("> Ingrese el precio en USD: ");
+                float precio = Convert.ToSingle(Console.ReadLine());
+                sistema.DefinirPrecioKgLana(precio);
+                Console.WriteLine("\nEnter para continuar");
+                Console.ReadLine();
+            }
+            catch (Exception e)
+            {
+                Console.WriteLine("Ocurrio un error al cambiar el precio");
+                MensajeError(e.Message);
+                Console.ReadLine();
+            }
         }
 
         public static void AltaDeGanadoBovino()
         {
             try
             {
-                Console.WriteLine("Ingrese código de caravana, fecha de nacimiento, costo de adquisición" +
-                                  "costo de alimentación, sexo, peso, si es hibrido, raza y alimentación ");
-                string codCaravana = PedirTexto("Ingrese código de caravana");
-                DateTime fechaNacimiento = Convert.ToDateTime(PedirTexto("Ingrese fecha de nacimiento: "));
-                float costoAdquisicion = Convert.ToSingle(PedirTexto("Ingrese costo de adquisición: "));
-                float costoAlimentacion = Convert.ToSingle(PedirTexto("Ingrese costo de alimentación: "));
-                float peso = Convert.ToSingle(PedirTexto("Ingrese peso: "));
-                string raza = PedirTexto("Ingrese raza: ");
-                //int tipoAlimentacion = 1;
+                Console.WriteLine("[ Registro de Bovino ]");
+                string codCaravana = PedirTexto("> Ingrese código de caravana: ");
+                DateTime fechaNacimiento = Convert.ToDateTime(PedirTexto("> Ingrese fecha de nacimiento (DD/MM/AA): "));
+                float costoAdquisicion = Convert.ToSingle(PedirTexto("> Ingrese costo de adquisición en USD: "));
+                float costoAlimentacion = Convert.ToSingle(PedirTexto("> Ingrese costo de alimentación en USD x KG: "));
+                float peso = Convert.ToSingle(PedirTexto("> Ingrese peso en KG: "));
+                string raza = PedirTexto("> Ingrese raza: ");
                 sistema.AltaBovino(codCaravana, fechaNacimiento, costoAdquisicion, costoAlimentacion, TipoSexo.Macho, peso, false, raza, TipoAlimentacion.Grano);
 
                 Console.WriteLine("Enter para continuar");
@@ -118,20 +132,29 @@ namespace Consola
             catch (Exception e)
             {
                 Console.WriteLine("Ocurrio un error al registrar bovino");
-                Console.WriteLine(e.Message);
-                Console.WriteLine("Enter para continuar");
+                MensajeError(e.Message);
                 Console.ReadLine();
             }
+        }
+        
+        public static void MostrarPreciosVenta()
+        {
+            Console.WriteLine("\n[💵 Precios de venta definidos en el sistema en USD ]");
+            Console.WriteLine("[🐄] Precio por kilo bovino en pie: $" + Bovino.PrecioKgPie + " USD");
+            Console.WriteLine("[🐑] Precio por kilo ovino en pie: $" + Ovino.PrecioKgPie + " USD");
+            Console.WriteLine("[🐑] Precio por kilo de lana: $" + Ovino.PrecioKgLana + " USD");
+            Console.WriteLine("\nEnter para continuar");
+            Console.ReadLine();
         }
 
         static int LeerNumero()
         {
             int opcion;
-            Console.Write("Ingrese número:");
+            Console.Write("> Ingrese número: ");
             while (!(int.TryParse(Console.ReadLine(), out opcion)))
             {
                 Console.WriteLine("El valor ingresado no es correcto");
-                Console.Write("Ingrese número:");
+                Console.Write("> Ingrese número: ");
             }
             return opcion;
         }

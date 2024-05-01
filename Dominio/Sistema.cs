@@ -591,7 +591,7 @@ public class Sistema
         {
 
             Empleado peon = BuscarEmpleado(emailPeon);
-            Empleado capataz = BuscarEmpleado(emailCapataz);
+            Capataz capataz = BuscarEmpleado(emailCapataz) as Capataz;
 
             if (peon == null || capataz == null)
             {
@@ -600,7 +600,7 @@ public class Sistema
 
             if (peon.GetType() == typeof(Peon) && capataz.GetType() == typeof(Capataz))
             {
-                //capataz.AsignarPeon(peon);
+                capataz.AsignarPeon(peon as Peon);
             }
             else
             {
@@ -618,7 +618,7 @@ public class Sistema
         try
         {
             Empleado peon = BuscarEmpleado(emailPeon);
-            Empleado capataz = BuscarEmpleado(emailCapataz);
+            Capataz capataz = BuscarEmpleado(emailCapataz) as Capataz;
 
             if (peon == null || capataz == null)
             {
@@ -627,7 +627,7 @@ public class Sistema
 
             if (peon.GetType() == typeof(Peon) && capataz.GetType() == typeof(Capataz))
             {
-                //capataz.PersonasACargo.Remove(peon);
+                capataz.DesasignarPeon(peon as Peon);
             }
             else
             {
@@ -863,10 +863,4 @@ public class Sistema
         return listaEmpleados;
     }
 
-    // AltaPotrero *
-    // BuscarPotrero @
-    // ModificarPotrero
-    // CalcularGanancia (NO IMPLEMENTAR) 
-    // MostrarGanadoPotrero @
-    // ObtenerPotreroSegunHectareas *
 }

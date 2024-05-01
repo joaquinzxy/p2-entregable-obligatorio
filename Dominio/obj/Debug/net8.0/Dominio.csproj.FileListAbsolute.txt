@@ -20,3 +20,4 @@ C:/Users/Yasy/source/repos/obligatorioUltimoIntento/Dominio/obj/Debug/net8.0/ref
 /Users/joaquin/Downloads/obligatorioUltimoIntento/Dominio/obj/Debug/net8.0/refint/Dominio.dll
 /Users/joaquin/Downloads/obligatorioUltimoIntento/Dominio/obj/Debug/net8.0/Dominio.pdb
 /Users/joaquin/Downloads/obligatorioUltimoIntento/Dominio/obj/Debug/net8.0/ref/Dominio.dll
+/Users/joaquin/Downloads/obligatorioUltimoIntento/Dominio/obj/Debug/net8.0/Dominio.sourcelink.json

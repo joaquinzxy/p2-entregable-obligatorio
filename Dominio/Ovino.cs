@@ -43,7 +43,7 @@ public class Ovino : Ganado
     }
     public override string ToString()
     {
-        return $"El precio establecido es {precioKgLana}";
+        return "🐑 OVINO ➡ " + base.ToString() + "Peso Lana: " + pesoLana + "kg";
 
     }
 }

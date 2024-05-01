@@ -133,6 +133,6 @@ public abstract class Ganado : IValidable
     }
     public override string ToString()
     {
-        return $"Código de caravana: {CodCaravana} \n Raza: {Raza} \n Peso: {peso} \n Sexo: {sexo}";
+        return $"Código de caravana: {CodCaravana}\nRaza: {Raza} | Peso: {peso}kg | Sexo: {sexo}\n";
     }
 }

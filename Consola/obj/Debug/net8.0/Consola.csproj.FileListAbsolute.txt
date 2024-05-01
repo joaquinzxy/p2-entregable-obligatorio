@@ -34,3 +34,4 @@ C:/Users/Yasy/source/repos/obligatorioUltimoIntento/Consola/obj/Debug/net8.0/ref
 /Users/joaquin/Downloads/obligatorioUltimoIntento/Consola/obj/Debug/net8.0/Consola.pdb
 /Users/joaquin/Downloads/obligatorioUltimoIntento/Consola/obj/Debug/net8.0/Consola.genruntimeconfig.cache
 /Users/joaquin/Downloads/obligatorioUltimoIntento/Consola/obj/Debug/net8.0/ref/Consola.dll
+/Users/joaquin/Downloads/obligatorioUltimoIntento/Consola/obj/Debug/net8.0/Consola.sourcelink.json
