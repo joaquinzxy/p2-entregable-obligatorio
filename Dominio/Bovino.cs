@@ -28,6 +28,12 @@ public class Bovino : Ganado
         get => alimentacion;
         set => alimentacion = value;
     }
+    
+    public override string ToString()
+    {
+        return "🐄 BOVINO ➡ " + base.ToString() + "Alimentacion: " + alimentacion;
+
+    }
 
     public override void Validar()
     {

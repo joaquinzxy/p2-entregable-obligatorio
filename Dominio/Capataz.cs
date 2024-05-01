@@ -37,6 +37,11 @@ namespace Dominio
         {
             personasACargo.Add(peon);
         }
+        
+        public void DesasignarPeon(Peon peon)
+        {
+            personasACargo.Remove(peon);
+        }
 
         public override string ToString()
         {

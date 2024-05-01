@@ -41,6 +41,7 @@ namespace Dominio
             Descripcion = descripcion;
             CantidadHectareas = cantidadHectareas;
             CapacidadMaxima = capacidadMaxima;
+            listaGanados = new List<Ganado>();
         }
 
         public void Validar()
@@ -70,7 +71,7 @@ namespace Dominio
 
         public override string ToString()
         {
-            return $"Id: {Id} \n Descripcion: {Descripcion} \n Cantidad de hectareas: {CantidadHectareas} \n Capacidad maxima: {CapacidadMaxima}";
+            return $"[ID: {Id}] - Desc: {Descripcion} \nCantidad de hectareas: {CantidadHectareas} | Capacidad maxima: {CapacidadMaxima} | Ocupado: {ListaGanados.Count}/{CapacidadMaxima}";
         }
 
         public void AsginarGanado(Ganado ganado)
